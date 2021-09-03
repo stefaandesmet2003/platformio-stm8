@@ -1,0 +1,6 @@
+een stm8_it.h file moeten maken, want daar wordt blijkbaar ergens naar gerefereerd
+-> die van sduino declareert al de interrupt handlers, dus die was niet bruikbaar
+
+stm8s_conf.h is nodig voor framework=spl (definieert welke spl header files meegenomen moeten worden)
+
+vreemd genoeg build dit ding ook met framework=arduino, ook al heeft test_pio.c ook een main() ??
